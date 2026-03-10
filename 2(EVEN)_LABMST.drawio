@@ -1,0 +1,310 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="QuRaxDjdu8Fu8eov9vZF">
+    <mxGraphModel dx="2262" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nfEnox-huDFpm67M8x3E-89" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="1769.8" />
+            </Array>
+            <mxPoint x="845" y="1769.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-65" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2140.8" />
+              <mxPoint x="1050" y="2000.8" />
+              <mxPoint x="1095" y="2000.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-66" connectable="0" parent="nfEnox-huDFpm67M8x3E-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WS REGISTERY&lt;br&gt;CONNECTS TO KAFKA" vertex="1">
+          <mxGeometry relative="1" x="-0.0102" y="1" as="geometry">
+            <mxPoint x="36" y="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-91" connectable="0" parent="nfEnox-huDFpm67M8x3E-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Chat SVC1&lt;div&gt;Chat SVC2&lt;br&gt;Chat SVC3&lt;/div&gt;&lt;div&gt;.....&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.607" y="2" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-70" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nfEnox-huDFpm67M8x3E-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1225" y="1999.8" />
+              <mxPoint x="1225" y="1740.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-79" connectable="0" parent="nfEnox-huDFpm67M8x3E-70" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Storing Data in Message DB" vertex="1">
+          <mxGeometry relative="1" x="0.2636" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;CDC PIPELINE" vertex="1">
+          <mxGeometry height="129" width="136" x="1145" y="1953.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-19" parent="1" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Q. Design a whatsapp system with proper following requirements:&amp;nbsp;&lt;div&gt;1.User Service&lt;br&gt;2.Chat Service&lt;/div&gt;&lt;div&gt;3.Group Service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Optimise the chat for handling millions of request,&amp;nbsp;&lt;br&gt;Specify the type of connection used in design.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Determine how designing will be done for last seen functionality&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Implement CDC pipeline.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="510" x="180" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Functional Requirements:" vertex="1">
+          <mxGeometry height="60" width="200" x="191" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-21" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="1.User should be able to login and signup&lt;div&gt;2.User should be able to send and receive messages both in text and other media formats&lt;/div&gt;&lt;div&gt;3.Users should be notified about the latest messages in realtime&lt;/div&gt;&lt;div&gt;4.Users should also be able to create and interact over groups&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="500" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Non-Functional Requirements:" vertex="1">
+          <mxGeometry height="60" width="200" x="201" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-23" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="1.The application should be highly available&lt;div&gt;2.Application should reach eventual consistency&lt;/div&gt;&lt;div&gt;3.Application should be able to handle millions of user&lt;/div&gt;&lt;div&gt;4.Application must have low latency (200-300ms)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="500" x="200" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Core Entities:" vertex="1">
+          <mxGeometry height="60" width="200" x="202" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-25" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="1.User Details: Phone number, Mail, Last Seen,Profile Photo&lt;div&gt;2. Chat details: Message id , Message content&lt;/div&gt;&lt;div&gt;3.Group Details: Group Name, Group Id, Group Members&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="500" x="201" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="API DESIGN" vertex="1">
+          <mxGeometry height="60" width="200" x="191" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-27" parent="1" style="whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;User:&lt;br&gt;POST: To add new details&lt;/div&gt;&lt;div&gt;PUT/Patch : To update user details&lt;/div&gt;&lt;div&gt;Delete: Delete user data&lt;br&gt;Get: To get the specific details of user&lt;br&gt;&lt;br&gt;Message/Notification (They will be handled through websockets, but we can have a generally idea)&lt;/div&gt;&lt;div&gt;1.Get : To get a new message&lt;/div&gt;&lt;div&gt;2. Post : To send new message&lt;br&gt;3. PUT: To edit message&lt;/div&gt;&lt;div&gt;4. Delete: To delete messages&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;Group&lt;/div&gt;&lt;div&gt;1.Get : To get group details&lt;/div&gt;&lt;div&gt;2. Post : To create new groups&lt;br&gt;3. PUT: To edit group details&lt;/div&gt;&lt;div&gt;4. Delete: To delete group&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="330" width="500" x="190" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="HLD" vertex="1">
+          <mxGeometry height="60" width="200" x="320" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-29" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="52.38" x="114" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-37" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nfEnox-huDFpm67M8x3E-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-30" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="52.38" x="114" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-31" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="52.38" x="114" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-32" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="50" width="52.38" x="114" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;API GATEWAY&lt;br&gt;LOAD BALANCERS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="241" y="1686" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-53" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1920" />
+              <mxPoint x="410" y="1864" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-54" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1920" />
+              <mxPoint x="410" y="1967" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-56" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="1920" />
+              <mxPoint x="410" y="2060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="120" x="231" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-35" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+          <mxGeometry height="73" width="78" x="252" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-36" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3496A1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="&lt;div&gt;WEBSOCKET&amp;nbsp;&lt;br&gt;GATEWAY&lt;/div&gt;" vertex="1">
+          <mxGeometry height="73" width="78" x="252" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-38" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-42" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="645" y="1590.8" />
+            </Array>
+            <mxPoint x="785" y="1590.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-40" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=user" value="&lt;div&gt;User Service&lt;/div&gt;" vertex="1">
+          <mxGeometry height="48" width="50" x="620" y="1652.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-41" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-44" connectable="0" parent="nfEnox-huDFpm67M8x3E-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="User&amp;nbsp;&lt;div&gt;login/Signup&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4225" y="2" as="geometry">
+            <mxPoint x="39" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-58" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nfEnox-huDFpm67M8x3E-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-47" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.chat_room;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Chat SVC1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="46" x="679" y="1850.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-59" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="nfEnox-huDFpm67M8x3E-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-100" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-48" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.chat_room;" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Chat SVC2&lt;/span&gt;" vertex="1">
+          <mxGeometry height="48" width="46" x="679" y="1953.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-60" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="2060.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-83" connectable="0" parent="nfEnox-huDFpm67M8x3E-60" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Chat SVC&#39;s&lt;br&gt;Check Registery&amp;nbsp;&lt;br&gt;To find which user is&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;connected to which SVC&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.6194" as="geometry">
+            <mxPoint x="-43" y="-144" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-49" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.chat_room;" value="Chat SVC3" vertex="1">
+          <mxGeometry height="48" width="46" x="679" y="2050.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="WebSocket&lt;div&gt;Registery&lt;br&gt;SVC1-&amp;gt;SVC2&lt;br&gt;SVC2-&amp;gt;SVC3...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="865" y="2050.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-84" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-64" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" value="Kafka" vertex="1">
+          <mxGeometry height="40" width="40" x="1171" y="1983.3" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-68" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" value="User DB&lt;br&gt;MYSQL" vertex="1">
+          <mxGeometry height="80" width="80" x="784.79" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-69" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_partition_4.svg;" value="Message DB&lt;div&gt;(MONGO)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59.2" width="80" x="1285" y="1710.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-96" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="1846" />
+              <mxPoint x="1440" y="2380" />
+              <mxPoint x="140" y="2380" />
+            </Array>
+            <mxPoint x="140" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-97" connectable="0" parent="nfEnox-huDFpm67M8x3E-96" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Push Notification through FCM?APNs" vertex="1">
+          <mxGeometry relative="1" x="0.1793" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-72" parent="1" style="html=1;strokeWidth=1;shadow=0;dashed=0;shape=mxgraph.ios7.misc.notification;fillColor=#FF3B2F;strokeColor=none;buttonText=;strokeColor2=#222222;fontColor=#222222;fontSize=8;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" value="Notification SVC&lt;div&gt;(Ping relevant user)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="70" x="1075" y="1810.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-75" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="2280.8" />
+              <mxPoint x="1415" y="1600.8" />
+            </Array>
+            <mxPoint x="855" y="1600.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-74" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="Global Cache&lt;div&gt;(To store last seen)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68.4" width="81.43" x="905" y="2250.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-76" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1920" />
+              <mxPoint x="380" y="2280" />
+            </Array>
+            <mxPoint x="700" y="2280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-78" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_service_for_apache_flink;" value="Flink" vertex="1">
+          <mxGeometry height="39.5" width="39.5" x="1221" y="1983.3" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-80" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-48" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;opacity=40;" target="nfEnox-huDFpm67M8x3E-47" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="702" y="1920.8" />
+            </Array>
+            <mxPoint x="679" y="1935.8" as="sourcePoint" />
+            <mxPoint x="729" y="1885.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-81" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-49" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;opacity=40;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="2020.8" />
+            </Array>
+            <mxPoint x="725" y="2060.8" as="sourcePoint" />
+            <mxPoint x="695" y="1990.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-85" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="1847" />
+              <mxPoint x="1068" y="1847" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-86" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" value="Group DB&lt;br&gt;MYSQL" vertex="1">
+          <mxGeometry height="80" width="80" x="1025" y="1670.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-88" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-98" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-99" connectable="0" parent="nfEnox-huDFpm67M8x3E-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Group SVC&amp;nbsp;&lt;br&gt;connects to the required&amp;nbsp;&lt;div&gt;chat svc&#39;s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.973" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-87" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=group" value="Group SVC" vertex="1">
+          <mxGeometry height="58" width="60.42" x="784.79" y="1732.8" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;23BCS10482&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="255" x="295" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-92" edge="1" parent="1" source="nfEnox-huDFpm67M8x3E-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.975;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;" target="nfEnox-huDFpm67M8x3E-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1666" />
+              <mxPoint x="380" y="1738" />
+              <mxPoint x="358" y="1738" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfEnox-huDFpm67M8x3E-93" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nfEnox-huDFpm67M8x3E-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1750" />
+              <mxPoint x="380" y="2280" />
+            </Array>
+            <mxPoint x="360" y="1750.0000000000002" as="sourcePoint" />
+            <mxPoint x="708.75571" y="2283.3656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
